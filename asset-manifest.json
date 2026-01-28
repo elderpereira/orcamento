@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/orcamento/static/css/main.67c1f1ff.css",
+    "main.js": "/orcamento/static/js/main.7a710526.js",
+    "index.html": "/orcamento/index.html",
+    "main.67c1f1ff.css.map": "/orcamento/static/css/main.67c1f1ff.css.map",
+    "main.7a710526.js.map": "/orcamento/static/js/main.7a710526.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67c1f1ff.css",
+    "static/js/main.7a710526.js"
+  ]
+}
