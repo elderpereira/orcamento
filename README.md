@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Simulador de Orçamento de Evento
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples de simulador de orçamento para eventos, desenvolvido em React. O objetivo principal é permitir a simulação rápida de custos para festas, confraternizações e outros eventos, considerando refeições, equipe, itens alugados e limpeza.
 
-## Available Scripts
+## Sobre o Projeto
 
-In the project directory, you can run:
+- **Interface simples:** O foco foi na funcionalidade, sem muita personalização de CSS. O visual é básico, mas prático.
+- **Geração por IA:** Algumas partes do código e do CSS foram geradas com auxílio de inteligência artificial, acelerando o desenvolvimento.
+- **Preços prefixados:** O valor da limpeza é fixo e varia conforme o tamanho do salão. Outros valores (refeições, equipe, itens alugados) são definidos pelo usuário na simulação.
+- **Margens de lucro:** É possível ajustar a margem de lucro para cada categoria (refeição, equipe, itens alugados e limpeza) usando sliders.
+- **Cálculo realista:** Crianças contam como meia pessoa, e todos os cálculos são feitos em tempo real conforme os dados são preenchidos.
+- **Cópia do orçamento:** O resultado pode ser copiado facilmente para ser enviado ao cliente ou salvo para referência.
 
-### `npm start`
+## Como usar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Preencha o número de pessoas, crianças, duração do evento e tamanho do salão.
+2. Adicione refeições, equipe e itens alugados conforme necessário.
+3. Ajuste as margens de lucro de cada categoria.
+4. Veja o orçamento detalhado e o valor final.
+5. Use o botão "Copiar Orçamento" para copiar o resultado.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Observações
 
-### `npm test`
+- O sistema foi feito para uso real, mas pode ser facilmente adaptado para outras necessidades.
+- Os valores de limpeza são prefixados, mas os demais valores são livres para simulação.
+- O projeto foi feito rapidamente para testar funções do React e simular um sistema realista de orçamento.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deploy
 
-### `npm run build`
+O projeto pode ser publicado facilmente no GitHub Pages usando o comando:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm run deploy
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Acesse: [https://elderpereira.github.io/orcamento](https://elderpereira.github.io/orcamento)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sinta-se à vontade para personalizar o CSS ou adaptar o sistema conforme sua necessidade!
