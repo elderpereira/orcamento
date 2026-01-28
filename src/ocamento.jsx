@@ -176,6 +176,7 @@ useEffect(() => {
       <br />      
       <h3>Adicionar Refeição</h3>
       <p>Cada refeição adicionada aumenta o custo por pessoa e este custo é o valor estimado que uma pessoa consumirá.</p>
+      <p>Dilua 5 Reais em alguma refeição para considerar os custos operacionais (saco de lixo, gás, papel aluminio etc.)</p>
       <input
         type="text"
         placeholder="Nome da refeição"
@@ -274,9 +275,6 @@ useEffect(() => {
               />%
         </label>
             <br />
-                  <p>Dilua 5 Reais em alguma refeição para considerar os custos operacionais (saco de lixo, gás, papel aluminio etc.)</p>
-                  <br />
-
         <label>
             Refeição: 
             <input
